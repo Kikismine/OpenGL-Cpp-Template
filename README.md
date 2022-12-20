@@ -17,13 +17,15 @@
 ```Makefile
 CFLAGS += -Ilib/name-of-the-library/
 ```
-5. If your library isn't *header* library then add:
+5. If your library isn't *[header]* library then add:
 ```Makefile
 LDFLAGS += lib/name-of-the-library/src/name-of-the-main-file
 ```
 6. You are done 👍
 
 ******
-*PS: best OpenGL tutorials:*
-*https://youtu.be/W3gAzLwfIP0*
-*https://learnopengl.com/*
+*PS: best OpenGL tutorials:*<br>
+*https://youtu.be/W3gAzLwfIP0*<br>
+*https://learnopengl.com/*<br>
+
+[header]: <https://en.wikipedia.org/wiki/Header-only>
