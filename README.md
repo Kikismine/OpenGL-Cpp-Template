@@ -10,9 +10,10 @@
 
 ## How to add GLEW
 1. Download *[glew]*
-2. Move the glew library to the 'lib' folder
-3. Open Makefile
-4. Add into Makefile:
+2. Rename '*glew-x.x.x*' to '*glew*'
+3. Move the glew library to the 'lib' folder
+4. Open Makefile
+5. Add into Makefile:
 ```Makefile
 CFLAGS += -Ilib/glew/include/GL
 LDFLAGS += lib/glew/lib/libGLEW.a
