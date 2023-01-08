@@ -15,7 +15,7 @@
 4. Add into Makefile:
 ```Makefile
 CFLAGS += -Ilib/glew/include/GL
-lib/glew/lib/libGLEW.a
+LDFLAGS += lib/glew/lib/libGLEW.a
 ```
 5. Add into Makefile's 'libs:' category:
 ```Makefile
